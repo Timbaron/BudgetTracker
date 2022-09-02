@@ -17,7 +17,7 @@ export default function Header() {
                     </View>
                 </View>
                 <View style={styles.headersettings}>
-                    <Icon name="cog" size={30} color="grey" />
+                    <Icon name="cog" size={30} color="grey" onPress={() => console.log('Icon Proessed')} />
                 </View>
             </View>
         </View>
