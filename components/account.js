@@ -8,7 +8,7 @@ export default function Account() {
     return (
         <LinearGradient
             // Button Linear Gradient
-            colors={['blue', 'pink', 'purple', 'violet', 'orange']}
+            colors={['blue', 'purple', 'pink']}
             style={styles.container}>
             <View style={{ justifyContent: 'center', alignItems: 'center' }}>
                 <Text style={styles.text}>Total Balance</Text>
