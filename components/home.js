@@ -2,6 +2,7 @@ import React from 'react'
 import { StyleSheet, Text, View } from 'react-native';
 import Account from './account';
 import Header from './header';
+import Transactions from './transactions';
 
 export default function Home() {
     return (
@@ -12,6 +13,7 @@ export default function Home() {
                 <Text style={styles.transaction}>Transactions</Text>
                 <Text style={styles.viewAll}>View All</Text>
             </View>
+            <Transactions />
         </>
     )
 }
